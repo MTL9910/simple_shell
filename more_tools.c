@@ -1,7 +1,7 @@
 #include "shell.h"
 
 
-void reverse_str(char *str, int len)
+void invertString(char *str, int len)
 {
 	char temp;
 	int begin = 0;
