@@ -34,7 +34,7 @@ char *_itoa(int n)
 	}
 
 	buffer[j] = '\0';
-	reverse_str(buffer, j);
+	invertString(buffer, j);
 
 	return (_strdup(buffer));
 }
