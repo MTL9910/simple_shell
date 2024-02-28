@@ -7,7 +7,7 @@ void invertString(char *str, int len)
 	int begin = 0;
 	int Finale = len - 1;
 
-	while (start < Finale)
+	while (begin < Finale)
 	{
 		temp = str[begin];
 		str[begin] = str[Finale];
